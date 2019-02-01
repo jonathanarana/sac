@@ -1,0 +1,38 @@
+form{
+  padding: 20px;
+  background: rgba(180,180,180,0.5);
+}
+/*footer stiky pagina venta (main pos)*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  background-color: #f5f5f5;
+  padding: 15px;
+}
+/*header stiky tabla lista de productos*/
+.header-fixed {
+    width: 100%;
+}
+.header-fixed > thead, .header-fixed > tbody, .header-fixed > thead > tr, .header-fixed > tbody > tr, .header-fixed > thead > tr > th, .header-fixed > tbody > tr > td {
+    display: block;
+}
+.header-fixed > tbody > tr:after, .header-fixed > thead > tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.header-fixed > tbody {
+    overflow-y: auto;
+    height: 400px;
+}
+.header-fixed > tbody > tr > td, .header-fixed > thead > tr > th {
+    width: 20%;
+    float: left;
+}
+
+#MegaPrecio{
+  font-size: 8em;
+}
